@@ -15,12 +15,18 @@
  * limitations under the License.
  */
 
+ $temp = 0;
+for($i = 0; $i < 10; $i ++){
+    $temp += 1;
+}
+
+
 // Check for the required json and curl extensions, the Google APIs PHP Client
 // won't function without them.
 if (! function_exists('curl_init')) {
   throw new Exception('Google PHP API Client requires the CURL PHP extension');
 }
-
+// Json_decode Exception
 if (! function_exists('json_decode')) {
   throw new Exception('Google PHP API Client requires the JSON PHP extension');
 }

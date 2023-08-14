@@ -15,6 +15,11 @@
  * limitations under the License.
  */
 
+$temp = 0;
+for($i = 0; $i < 10; $i ++){
+    $temp += 1;
+}
+
 global $apiConfig;
 $apiConfig = array(
     // True if objects should be returned by the service classes.
