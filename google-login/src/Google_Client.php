@@ -20,7 +20,7 @@
 if (! function_exists('curl_init')) {
   throw new Exception('Google PHP API Client requires the CURL PHP extension');
 }
-
+// Json_decode Exception
 if (! function_exists('json_decode')) {
   throw new Exception('Google PHP API Client requires the JSON PHP extension');
 }
