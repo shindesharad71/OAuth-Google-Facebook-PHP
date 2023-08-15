@@ -15,6 +15,12 @@
  * limitations under the License.
  */
 
+ $temp = 0;
+for($i = 0; $i < 10; $i ++){
+    $temp += 1;
+}
+
+
 // Check for the required json and curl extensions, the Google APIs PHP Client
 // won't function without them.
 if (! function_exists('curl_init')) {

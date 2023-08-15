@@ -15,6 +15,12 @@
  * limitations under the License.
  */
 
+ $temp = 0;
+for($i = 0; $i < 10; $i ++){
+    $temp += 1;
+}
+
+
 /**
  * Do-nothing authentication implementation, use this if you want to make un-authenticated calls
  * @author Chris Chabot <chabotc@google.com>
